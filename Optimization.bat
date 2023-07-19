@@ -102,10 +102,6 @@ if "%choice%"=="1" (
     reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Streams" /f
     
     
-    REM Reset specific software settings (replace 'SoftwareName' with the actual software name)
-    reg delete "HKCU\Software\SoftwareName" /f
-    reg delete "HKLM\Software\SoftwareName" /f
-    
     echo All Settings reset to default.
     echo.
     pause
